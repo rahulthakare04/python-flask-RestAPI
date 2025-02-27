@@ -2,14 +2,6 @@
 
 This project contains multiple Flask-based REST APIs for handling various functionalities, including students, books, movies, and football players.
 
-## Requirements
-Make sure you have the following dependencies installed:
-```bash
-pip install flask flask-restful pymysql pymongo
-```
-
-## API Endpoints
-
 ### Students API
 - **Add Student** (`POST /student/add`)
 - **Get All Students** (`GET /students/all`)
@@ -25,16 +17,6 @@ pip install flask flask-restful pymysql pymongo
 
 ### Football Players API
 - **Get Players by Nationality** (`GET /player/<nationality>`)
-
-## Running the API
-To start the API, run the respective script:
-```bash
-python <script_name>.py
-```
-For example:
-```bash
-python Allstudent.py
-```
 
 ## Notes
 - The API connects to MySQL and MongoDB databases.
