@@ -17,7 +17,7 @@ pip install flask flask-restful pymysql pymongo
 - **Delete Student** (`DELETE /student/delete`)
 
 ### Books API
-- **Get All Books** (`GET /books/all`)
+- **Get All Books** (`GET /books/all`)(mongodb database)
 
 ### Movies API
 - **Search Movie by Name** (`GET /movie/search/<name>`)
